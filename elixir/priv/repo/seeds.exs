@@ -21,6 +21,6 @@ end
 Repo.insert!(%Test{words: "Testing This out"})
 test2 = Repo.get_by(Test, words: "Test Two")
 if test2 != nil do
-    Repo.delete!(test)
+    Repo.delete!(test2)
 end
 Repo.insert!(%Test{words: "Test Two"})
