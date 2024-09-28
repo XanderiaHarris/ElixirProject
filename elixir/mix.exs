@@ -35,18 +35,17 @@ defmodule LGBTBook.MixProject do
     [
       {:absinthe, "~> 1.7.8"}, # Most up to date
       {:absinthe_plug, "~> 1.5.8"}, # Most up to date
-      {:cowboy_telemetry, "~> 0.4.0"}, # Most up to date
       {:ecto_sql, "~> 3.12.0"}, # Most up to date
-      {:gettext, "~> 0.26.1"}, # Most up to date
+      {:gettext, "~> 0.20.0"},
       {:jason, "~> 1.4.4"}, # Most up to date
-      {:phoenix, "~> 1.7.14"}, # Most up to date
+      {:phoenix, "~> 1.6.16"},
       {:phoenix_ecto, "~> 4.6.2"}, # Most up to date
       {:phoenix_live_dashboard, "~> 0.8.4"}, # Most up to date
       {:plug_cowboy, "~> 2.7.2"}, # Most up to date
       {:poison, "~> 6.0.0"}, # Most up to date
       {:postgrex, "~> 0.19.1"}, # Most up to date
       {:telemetry_metrics, "~> 1.0.0"}, # Most up to date
-      {:telemetry_poller, "~> 1.1.0"} # Most up to date
+      {:telemetry_poller, "~> 0.5.1"}
     ]
   end
 
