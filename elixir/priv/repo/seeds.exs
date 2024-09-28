@@ -17,7 +17,10 @@ alias LGBTBook.Tests.Test
 test = Repo.get_by(Test, words: "Testing This out")
 if test != nil do
     Repo.delete!(test)
-    Repo.insert!(%Test{words: "Testing This out"})
-else
-    Repo.insert!(%Test{words: "Testing This out"})
 end
+Repo.insert!(%Test{words: "Testing This out"})
+test2 = Repo.get_by(Test, words: "Test Two")
+if test2 != nil do
+    Repo.delete!(test)
+end
+Repo.insert!(%Test{words: "Test Two"})
