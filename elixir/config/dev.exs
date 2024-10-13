@@ -4,7 +4,7 @@ import Config
 config :lgbtBook, LGBTBook.Repo,
   username: "postgres",
   password: "postgres",
-  database: "lgbtBook_dev",
+  database: "lgbt_book_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10

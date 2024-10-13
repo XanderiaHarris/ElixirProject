@@ -5,6 +5,7 @@ defmodule LGBTBookWeb.Schemas.Types do
   use Absinthe.Schema.Notation
 
   import_types(Absinthe.Type.Custom)
+  import_types(LGBTBookWeb.Schema.BooksSchema)
   object :test do
     field :id, :id
     field :words, :string
